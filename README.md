@@ -10,16 +10,15 @@ Mac, press contrl + tilde or click Terminal
 
 
 steps:
-    1- create virtualenv with the command: 
+1- create virtualenv with the command: 
             pip3 install virtualenv
 Running this command creates the target directory called "env". Under "env" ,  a pyvenv.cfg file is placed in it with         a home key pointing to the Python installation from which the command was run. It also creates a bin (or Scripts on           Windows) subdirectory containing a copy of the python binary (or binaries, in the case of Windows). It also creates an (initially empty) lib/pythonX.Y/site-packages subdirectory (on Windows, this is Lib\site-packages).The code is verified only Mac. 
 
-    2- activate the env with source /env/bin/activate 
-
-    3- create sub folder "template' under "Flask" to store document "indexd.html"
-    4 - Under folder "Flask", store files, "main_2.py", "fibonacci_n_value.py", "validate_fraction.py" and "ackermann.py"
-    5 - Under Terminal, change the directory under "Flask" and run "Python main_2.py"
-    6 - open Chrome or Safari, on address line type:localhost:5000
+2- activate the env with source /env/bin/activate 
+3- create sub folder "template' under "Flask" to store document "indexd.html"
+4 - Under folder "Flask", store files, "main_2.py", "fibonacci_n_value.py", "validate_fraction.py" and "ackermann.py"
+5 - Under Terminal, change the directory under "Flask" and run "Python main_2.py"
+6 - open Chrome or Safari, on address line type:localhost:5000
 
 Addtional infomration:
 1. __main__ is run under debug mode. Because it is efficient to debug, also I can view status and runtime when I run the code.
