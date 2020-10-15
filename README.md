@@ -12,7 +12,7 @@ Mac, press contrl + tilde or click Terminal
 steps:
 1- create virtualenv with the command: 
             pip3 install virtualenv
-Running this command creates the target directory called "env". Under "env" ,  a pyvenv.cfg file is placed in it with         a home key pointing to the Python installation from which the command was run. It also creates a bin (or Scripts on           Windows) subdirectory containing a copy of the python binary (or binaries, in the case of Windows). It also creates an (initially empty) lib/pythonX.Y/site-packages subdirectory (on Windows, this is Lib\site-packages).The code is verified only Mac. 
+Running this command creates the target directory called "env". Under "env" ,  a pyvenv.cfg file is placed in it with a home key pointing to the Python installation from which the command was run. It also creates a bin (or Scripts on Windows) subdirectory containing a copy of the python binary (or binaries, in the case of Windows). It also creates an (initially empty) lib/pythonX.Y/site-packages subdirectory (on Windows, this is Lib\site-packages).The code is verified only Mac. 
 
 2- activate the env with source /env/bin/activate 
 3- create sub folder "template' under "Flask" to store document "indexd.html"
