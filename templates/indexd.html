@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Klarna Assignment </title>
+        <h1>Klarna Assignment</h1>
+        <style>
+            div{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2> Fibonacci</h2>
+        <form action="/calc1" method="post">
+            <input type ="text" placeholder = "Integer" name = "number1">
+            <input type ="submit" placeholder=" Submit" name = "Submit">
+        </form>
+        <h2> Ackermann</h2>
+        <h5>Recursion limit, Please input 1st number less 3, 2nd less than 7</h5>
+        <form action ="/calc2" method="POST">
+            <input type ="text" placeholder = "Integer less than 3" name = "number2">
+            <input type ="text" placeholder = "Integer less than 7" name = "number3">
+            <input type ="submit" placeholder=" Submint" name = "Submit">
+        </form>
+        <h2> Factorial</h2>
+        <form action ="/calc3" method="POST">
+            <input type ="text" placeholder = "Integer" name = "number4">
+            <input type ="submit" placeholder=" Submint" name = "Submit">
+        </form>
+        <div>
+            <button onclick="window.location.reload();">Refresh Page</button>
+        </div>
+    </body>
+</html>
